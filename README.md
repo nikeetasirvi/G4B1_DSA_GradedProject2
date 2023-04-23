@@ -1,7 +1,7 @@
+
 Question 1                                                                                                                MARKS : 20
 
 Your friend is a chief architect, who is working on building a skyscraper, in Mumbai. The construction is in such a way that the floors will be constructed in other factories and they will be assembled. All the sizes will be distinct.
-
 The skyscraper needs to be constructed in N days with the following conditions :
 
 a)	Every day a floor is constructed in a separate factory of distinct size.
@@ -49,6 +49,7 @@ The largest floor size is available on day 1 itself, hence it will be assembled 
 On the second day floor of size 1 is available and cannot be assembled as the floor of size 2 is not available.
 On the third day floor of size 2, is available and accordingly, the remaining floor (2,1) will assemble in the order 2,1
 --------------------------------------------------------------------------------------------------------------------------
+
 TestCase 2
 
 enter the total no of floors in the building
@@ -85,6 +86,8 @@ On the third and fourth days, floors cannot be assembled as the size of 3 needs 
 On the fifth day, all the floors of sizes 3, 2, and 1 can be placed.
 
 --------------------------------------------------------------------------------------------------------------------------
+
+
 Test Case 3
 
 enter the total no of floors in the building
@@ -137,7 +140,19 @@ Instructions :
 
 1)	You can use any inbuilt java function/s to implement the above functionalities
 2)	You can choose any DataStructure(Stack, Queue, LinkedList) to implement the above functionality.
+
+
+
+
+
 -------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 Question 2                                                                                                          MARKS: 30
 
 You are working in an MNC, which manages the Transactions, where only BST is used as a Data Structure. The company stores all the data of transactions in BST such that the tree is always a complete BST. 
@@ -146,17 +161,39 @@ You are required to modify the existing BST and display the node values present 
 
 Hint: ( Convert the Binary Search Tree into a Skewed Tree).
 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 Output
 
 10 30 50 55 60
 
+
 Instructions
 
-You can hardcode the tree as follows
-    
-    Main tree = new Main();
-    tree.node = new Node(50);
-    tree.node.left = new Node(30);
-    tree.node.right = new Node(60);
-    tree.node.left.left = new Node(10);
-    tree.node.right.left= new Node(55);
+         You can hardcode the tree as follows
+
+
+     Main tree = new Main();
+     tree.node = new Node(50);
+     tree.node.left = new Node(30);
+     tree.node.right = new Node(60);
+     tree.node.left.left = new Node(10);
+     tree.node.right.left= new Node(55);
+
+
+
+
