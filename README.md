@@ -38,6 +38,7 @@ The order of construction is as follows
 
 Day: 1
 3 
+
 Day: 2
 
 Day: 3
@@ -48,6 +49,7 @@ Explanation
 The largest floor size is available on day 1 itself, hence it will be assembled on day 1.
 On the second day floor of size 1 is available and cannot be assembled as the floor of size 2 is not available.
 On the third day floor of size 2, is available and accordingly, the remaining floor (2,1) will assemble in the order 2,1
+
 --------------------------------------------------------------------------------------------------------------------------
 
 TestCase 2
@@ -70,7 +72,8 @@ The order of construction is as follows
 Day: 1
 
 Day: 2
-5 4 
+5 4
+
 Day: 3
 
 Day: 4
@@ -127,12 +130,14 @@ Day: 5
 
 Day: 6
 10 9 8 
+
 Day: 7
 
 Day: 8
 
 Day: 9
 7 
+
 Day: 10
 6 5 4 3 2 1 
 
@@ -161,30 +166,13 @@ You are required to modify the existing BST and display the node values present 
 
 Hint: ( Convert the Binary Search Tree into a Skewed Tree).
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 Output
 
 10 30 50 55 60
 
 
 Instructions
-
-         You can hardcode the tree as follows
+You can hardcode the tree as follows
 
 
      Main tree = new Main();
